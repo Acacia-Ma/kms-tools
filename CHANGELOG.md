@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## v2.2.0
+
+[compare changes](https://github.com/ikxin/kms-tools/compare/v2.1.0...v2.2.0)
+
+### 🚀 Enhancements
+
+- 添加 Cloudflare 部署配置的定时触发器 ([7c7ade7](https://github.com/ikxin/kms-tools/commit/7c7ade7))
+- 接入 Cloudflare D1 持久化监控数据 ([6511bde](https://github.com/ikxin/kms-tools/commit/6511bde))
+- 迁移图标至 Lucide 并启用自动扫描 ([ba31cc7](https://github.com/ikxin/kms-tools/commit/ba31cc7))
+- 完善 LTR 与 RTL 布局适配 ([defbdbd](https://github.com/ikxin/kms-tools/commit/defbdbd))
+- 新增七种语言以及全量翻译 gvlks 数据版本名称 ([2c728a3](https://github.com/ikxin/kms-tools/commit/2c728a3))
+
+### 🩹 Fixes
+
+- 修复首屏 SSR 无样式内容闪烁 ([f798fca](https://github.com/ikxin/kms-tools/commit/f798fca))
+- 修复 Arco Design 与 Tailwind CSS 的样式级联冲突 ([30315f4](https://github.com/ikxin/kms-tools/commit/30315f4))
+
+### 🏡 Chore
+
+- 设置 Cloudflare Workers 部署放置区域 ([91ddbee](https://github.com/ikxin/kms-tools/commit/91ddbee))
+
+### ❤️ Contributors
+
+- 一纸忘忧 ([@ikxin](https://github.com/ikxin))
+
 ## v2.1.0
 
 [compare changes](https://github.com/ikxin/kms-tools/compare/v2.0.0...v2.1.0)
